@@ -2,7 +2,6 @@
 
 import { motion } from 'framer-motion';
 import { Play, Music, Calendar, Mail, Instagram, Facebook } from 'lucide-react';
-import Image from 'next/image';
 import Link from 'next/link';
 
 export default function Home() {
@@ -111,7 +110,7 @@ export default function Home() {
               >
                 <Play className="w-12 h-12 mx-auto mb-4 text-[#00ff88]" />
                 <h3 className="text-xl font-semibold mb-2">Live Performance</h3>
-                <p className="text-gray-400">Dynamic sets tailored to your event's energy</p>
+                <p className="text-gray-400">Dynamic sets tailored to your event&apos;s energy</p>
               </motion.div>
               
               <motion.div 
